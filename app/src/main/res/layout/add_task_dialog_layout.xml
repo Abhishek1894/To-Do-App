@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center">
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width= "match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/newTask"
+            android:textSize="25sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/multiLineTextAddTask"
+            android:layout_below="@+id/heading"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:hint="@string/addTaskHere"
+            android:autofillHints="username"
+            android:gravity="start|top"
+            android:layout_margin="10dp"
+            android:inputType="textMultiLine"
+            />
+
+        <Button
+            android:id="@+id/buttonSetTime"
+            android:layout_below="@+id/multiLineTextAddTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/setTime"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"/>
+
+        <Button
+            android:id="@+id/buttonSaveTask"
+            android:layout_below="@+id/buttonSetTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_gravity="center"
+            android:text="@string/save"
+            android:backgroundTint="#444343"/>
+
+</RelativeLayout>

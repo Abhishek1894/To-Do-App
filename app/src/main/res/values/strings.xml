@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">To Do App</string>
+    <string name="tag_line">Plan your Task with us...</string>
+    <string name="addButton">Add Button</string>
+    <string name="sampleTask">Learn Data Structure and algorithm</string>
+    <string name="sampleTime">10:00 AM</string>
+    <string name="icon">Icon</string>
+    <string name="addTask"> Add Task</string>
+    <string name="addTaskHere">Add Task here..</string>
+    <string name="setTime">Set Time</string>
+    <string name="save">Save</string>
+    <string name="newTask">New Task</string>
+    <string name="update">Update Task</string>
+</resources>
